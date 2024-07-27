@@ -1,0 +1,10 @@
+
+h1{
+    color: rgb(206, 4, 4);
+}
+
+div {
+  color: rgb(107, 98, 98);
+  width: 500px;
+  border: 1px solid black;
+}
