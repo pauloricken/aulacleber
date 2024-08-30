@@ -1,4 +1,4 @@
-/*corpo página */
+/* Estilo para o corpo da página */
 body {
     display: flex;
     justify-content: center;
@@ -9,16 +9,16 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-/* calculadora formato */
+/* Estilo para a calculadora */
 .calculator {
     max-width: 500px;
     background: #3c3b3b;
     padding: 50px;
-    border-radius: 1px;
+    border-radius: 5px;
     text-align: center;
 }
 
-/*display da calculadora */
+/* Estilo para o display da calculadora */
 #display {
     width: 90%;
     margin-bottom: 30px;
@@ -28,9 +28,10 @@ body {
     padding: 10px;
     border-radius: 5px;
     background-color: #e9e9e9;
+    color: black; /* Cor padrão do texto */
 }
 
-/*grid */
+/* Grid para os botões */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 colunas de tamanho igual */
@@ -39,7 +40,7 @@ body {
 
 .buttons button {
     width: 100%;
-    height: 60px; /* Aumentei um pouco a altura dos botões */
+    height: 60px;
     font-size: 18px;
     border: none;
     border-radius: 5px;
@@ -49,10 +50,10 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #333333;
-} 
+    background-color: #333;
+}
 
-/*Botões operadores*/
+/* Estilo específico para botões de operador */
 .operator {
     background-color: #f0b67f;
     color: white;
@@ -62,11 +63,20 @@ body {
     background-color: #e6a157;
 }
 
-/* Estilização específica para o botão de igual*/
+/* Estilo específico para o botão de igual */
 .equal {
     background-color: #78c2ad;
     color: rgb(41, 39, 39);
-    grid-column: span 2; /* O botao de igual ocupa duas colunas, pelo fato dele ser maior */
+    grid-column: span 2; /* O botão de igual ocupa duas colunas */
 }
 
-
+/* Estilo para a área de resultado */
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
