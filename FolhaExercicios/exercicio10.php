@@ -45,7 +45,7 @@ function exibirArvore($nodes) {
     echo "</ul>";
 }
 
-// Chama função para exibir a árvore completa, começando pela raiz que foi denomida - ($tree)
+// Chama função para exibir a árvore completa, começando pela raiz que foi denomida -- ($tree)
 exibirArvore($tree);
 ?>
 
