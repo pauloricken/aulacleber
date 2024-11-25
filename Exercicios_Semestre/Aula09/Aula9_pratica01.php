@@ -1,10 +1,10 @@
 <?php
 
-/
+
 $notas = [8, 7, 9, 6];
 $faltas = [0, 1, 1, 0, 1]; 
 
-/
+
 function calcularMedia($notas) {
     $soma = array_sum($notas);
     $quantidade = count($notas);
